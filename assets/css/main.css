@@ -884,6 +884,22 @@ canvas.particles-js-canvas-el {
   right: calc(17% - 98px);
 }
 
+@media only screen and (max-width: 600px) {
+  .skills-01 .skill-box:nth-child(4) .skill-bar-percent {
+    right: calc(17% - 72px);
+  }
+  .personal-item h1 {
+    font-size: 32px;
+    padding-top: 20px;
+  }
+  .callingImg {
+    right: 0;
+  }
+  .whatsApp {
+    right: 0;
+  }
+}
+
 .skills-01 .skill-bar-percent .arrow {
   display: inline-block;
   padding: 4px;
